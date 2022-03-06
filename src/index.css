@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.icon
+{
+  width: 80px;
+  height: 80px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fa-phone
+{
+  background-color: #E9D023;
+  color: #474746;
+}
+.fa-whatsapp
+{
+  background-color: #32B768;
+  color: white
+}
+button 
+{
+  background-color: #bebebe !important;
+  transition: all 2s;
+}
+button:hover
+{
+  background-color: #E9D023 !important;
 }
