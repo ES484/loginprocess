@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../Images/Logo.png';
 import { Link } from 'react-router-dom';
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <>
     <div className='d-flex flex-row-reverse mt-5'>
@@ -16,6 +16,7 @@ export default function Navbar() {
         <Link to='login'>
             <img src={logo} alt='Logo'/>
         </Link>
+        {localStorage.getItem('userToken')? <span onClick={props.logOut}>Logout</span>:''}
     </div>
     </>
   )

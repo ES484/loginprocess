@@ -1,7 +1,15 @@
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
 .icon
 {
   width: 80px;
   height: 80px;
+}
+i
+{
+  padding-right: 15px;
 }
 .fa-phone
 {
@@ -13,12 +21,55 @@
   background-color: #32B768;
   color: white
 }
+.socialLogin button
+{
+  background-color: transparent !important;
+}
 button 
 {
-  background-color: #bebebe !important;
-  transition: all 2s;
+  margin:5px 0px
 }
-button:hover
+.login
+{
+  background-color: #bebebe !important;
+  transition: all 1s;
+}
+.login:hover
 {
   background-color: #E9D023 !important;
+}
+.fa-circle-check,
+.fa-eye
+{
+  top: 60%;
+  left: 90%
+}
+.fa-circle-check
+{
+  color: #32B768;
+}
+.fa-eye
+{
+  color: #bebebe
+}
+.fa-google 
+{
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook-square 
+{
+  color: #3b5998;
+}
+.page_footer span
+{
+  text-decoration: underline;
+  color: #000;
+}
+span
+{
+  cursor: pointer;
 }
